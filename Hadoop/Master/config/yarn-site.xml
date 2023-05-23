@@ -1,0 +1,30 @@
+<configuration>
+  <property>
+    <name>yarn.resourcemanager.hostname</name>
+    <value>yarn</value>
+  </property>
+  <property>
+    <name>yarn.nodemanager.hostname</name>
+    <value>slave1</value>
+  </property>
+  <property>
+    <name>yarn.nodemanager.address</name>
+    <value>slave1:8041</value>
+  </property>
+  <property>
+    <name>yarn.nodemanager.resource.memory-mb</name>
+    <value>2048</value>
+  </property>
+  <property>
+    <name>yarn.nodemanager.resource.cpu-vcores</name>
+    <value>4</value>
+  </property>
+  <property>
+    <name>yarn.nodemanager.local-dirs</name>
+    <value>/data/nodemanager</value>
+  </property>
+  <property>
+    <name>yarn.nodemanager.log-dirs</name>
+    <value>/data/logs/yarn</value>
+  </property>
+</configuration>
